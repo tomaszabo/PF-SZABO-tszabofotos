@@ -1,3 +1,9 @@
+@use './partials/globales';
+
 @use './partials/componentes';
 
-@use './partials/globales';
+@use './partials/header';
+
+@use './partials/index';
+
+@use './partials/footer.scss';

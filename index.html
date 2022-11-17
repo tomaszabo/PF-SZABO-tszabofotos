@@ -24,83 +24,87 @@
 	</head>
 
 	<body id="arriba">
-		<header class="sticky-top">
-			<nav class="navbar navbar-expand-lg bg-light">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="index.html">
-						<img src="./img/logoTomSz.png" alt="logoTomSz" class="logo" />
-					</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="offcanvas"
-						data-bs-target="#offcanvasNavbar"
-						aria-controls="offcanvasNavbar"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div
-						class="offcanvas offcanvas-end"
-						tabindex="-1"
-						id="offcanvasNavbar"
-						aria-labelledby="offcanvasNavbarLabel"
-						aria-modal="true"
-						role="dialog"
-					>
-						<div class="offcanvas-header">
-							<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tomas Szabo</h5>
-							<button
-								type="button"
-								class="btn-close"
-								data-bs-dismiss="offcanvas"
-								aria-label="Close"
-							></button>
-						</div>
-						<div class="offcanvas-body">
-							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-								<li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="./page/sobreTomSz.html">Sobre TomSz</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="./page/porfolio.html">Porfolio</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="./page/fotos.html">Fotos</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="./page/contacto.html">Contacto</a>
-								</li>
-							</ul>
+		<header>
+			<div class="po">
+				<nav class="navbar navbar-expand-lg bg-light">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.html">
+							<img src="./img/logoTomSz.png" alt="logoTomSz" class="logo ani-logo" />
+						</a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasNavbar"
+							aria-controls="offcanvasNavbar"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div
+							class="offcanvas offcanvas-end"
+							tabindex="-1"
+							id="offcanvasNavbar"
+							aria-labelledby="offcanvasNavbarLabel"
+							aria-modal="true"
+							role="dialog"
+						>
+							<div class="offcanvas-header">
+								<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tomas Szabo</h5>
+								<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="offcanvas"
+									aria-label="Close"
+								></button>
+							</div>
+							<div class="offcanvas-body">
+								<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+									<li class="nav-item nav-selec ani-nav-item">
+										<a class="nav-link activo" aria-current="page" href="index.html">Inicio</a>
+									</li>
+									<li class="nav-item nav-selec ani-nav-item">
+										<a class="nav-link" href="./page/sobreTomSz.html">Sobre TomSz</a>
+									</li>
+									<li class="nav-item nav-selec ani-nav-item">
+										<a class="nav-link" href="./page/porfolio.html">Porfolio</a>
+									</li>
+									<li class="nav-item nav-selec ani-nav-item">
+										<a class="nav-link" href="./page/fotos.html">Fotos</a>
+									</li>
+									<li class="nav-item nav-selec ani-nav-item">
+										<a class="nav-link" href="./page/contacto.html">Contacto</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-			</nav>
+				</nav>
+			</div>
+			<div class="conteiner-fluid">
+				<img
+					src="https://conocedores.com/wp-content/uploads/2021/01/bariloche-que-hacer-29012021in2.jpg"
+					alt="lago de bariloche"
+					class="img-s-in"
+				/>
+			</div>
 		</header>
 
 		<main class="container-fluid text-center">
-			<img
-				src="https://conocedores.com/wp-content/uploads/2021/01/bariloche-que-hacer-29012021in2.jpg"
-				alt="lago de bariloche"
-				class="imagen-index-superior"
-			/>
-			<div class="row">
-				<div class="col-12 col-md-6 p-5 ">
-					<h1 class="pt-4" >No solo son fotos</h1>
-					<p class="pt-4">
+			<div class="cont-index row">
+				<div class="col-12 col-md-6 parrafo-index">
+					<h1 class="">No solo son fotos</h1>
+					<p>
 						Lograr plasmar historias visuales. El verdadero arte de la fotografía consiste en contar
 						historias y tocar el alma de quien las ve. Por eso una de los mayores aportes de la fotografía
 						está en dejar una huella con la fotografía capaz de transmitir historias de generación en
 						generación
 					</p>
 				</div>
-				<div class="col-12 col-md-6 p-5 ">
+				<div class="col-12 col-md-6 foto-index">
 					<img
 						src="https://www.fundssociety.com/wp-content/uploads/2021/09/field-6574455_1920.jpg"
 						alt="auto antigua abandonado"
-						class="imagen-index-inferior"
+						class="img-index-inf"
 					/>
 				</div>
 			</div>

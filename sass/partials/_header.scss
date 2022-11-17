@@ -1,0 +1,101 @@
+.logo {
+	width: 3rem;
+	margin: 0rem 4rem;
+}
+
+.navbar{
+    height: 5rem;
+}
+
+.nav-item {
+	padding: 0rem 3rem;
+}
+
+
+@media (min-width: 992px) {
+	.nav-link.activo {
+		color: #59c1bd;
+		border-bottom: 0.25rem solid #59c1bd;
+	}
+}
+
+.navbar-toggler {
+	margin: 0rem 1rem;
+}
+
+//animacion log navar
+
+.ani-logo {
+	-webkit-animation: rotate-scale-up 0.4s linear both;
+	animation: rotate-scale-up 0.4s linear both;
+}
+
+@-webkit-keyframes rotate-scale-up {
+	0% {
+		-webkit-transform: scale(1) rotateZ(0);
+		transform: scale(1) rotateZ(0);
+	}
+	50% {
+		-webkit-transform: scale(2) rotateZ(180deg);
+		transform: scale(2) rotateZ(180deg);
+	}
+	100% {
+		-webkit-transform: scale(1) rotateZ(360deg);
+		transform: scale(1) rotateZ(360deg);
+	}
+}
+@keyframes rotate-scale-up {
+	0% {
+		-webkit-transform: scale(1) rotateZ(0);
+		transform: scale(1) rotateZ(0);
+	}
+	50% {
+		-webkit-transform: scale(2) rotateZ(180deg);
+		transform: scale(2) rotateZ(180deg);
+	}
+	100% {
+		-webkit-transform: scale(1) rotateZ(360deg);
+		transform: scale(1) rotateZ(360deg);
+	}
+}
+
+//animacion item navbar
+
+.ani-nav-item {
+	-webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: tilt-in-top-1 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes tilt-in-top-1 {
+	0% {
+		-webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+		transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+		transform: rotateY(0deg) translateY(0) skewY(0deg);
+		opacity: 1;
+	}
+}
+@keyframes tilt-in-top-1 {
+	0% {
+		-webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+		transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+		transform: rotateY(0deg) translateY(0) skewY(0deg);
+		opacity: 1;
+	}
+}
+
+//atenuacion de tiempo
+
+@for $nav-it from 1 through 5 {
+	.nav-item:nth-child(#{$nav-it}) {
+		animation: tilt-in-top-1 $nav-it * 0.25s;
+	}
+}
+
