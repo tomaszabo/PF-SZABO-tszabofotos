@@ -1,0 +1,42 @@
+.h1-cont{
+    padding: 4rem;
+}
+
+.cont-contenedo {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-img {
+	img {
+		width: 100%;
+		padding: 2rem;
+	}
+}
+.cont-form {
+padding: 2;
+	input {
+		padding: 1;
+		width: 90%;
+		border-color: white;
+		border-bottom: 0.12rem solid black;
+		border-radius: 0px;
+		outline: none;
+	}
+	textarea {
+		@extend input;
+	}
+}
+
+@media (max-width: 768px){
+    .h1-cont{
+        padding: 1rem;
+    }
+    .cont-img{
+        padding: 1rem;
+    }
+    .cont-form{
+        padding: 3rem;
+    }
+}

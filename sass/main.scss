@@ -1,9 +1,25 @@
-@use './partials/globales';
+@use './base/reset';
 
-@use './partials/componentes';
+@use './base/typo';
 
-@use './partials/header';
+@use './utilities/globales';
 
-@use './partials/index';
+@use './utilities/componentes';
 
-@use './partials/footer.scss';
+@use './layout/header';
+
+@use './layout/footer';
+
+@use './views/index';
+
+@use './views/sobreTomSz';
+
+@use './views/porfolio';
+
+@use './views/fotos';
+
+@use './views/contacto';
+
+
+
+

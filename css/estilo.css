@@ -7,6 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 100%;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -114,7 +115,12 @@ body {
   animation: tilt-in-top-1 1.25s;
 }
 
-.img-s-in {
+.footer-redes img {
+  width: 2rem;
+  margin: 2rem;
+}
+
+.img-index-sup {
   width: 100%;
 }
 
@@ -157,9 +163,42 @@ body {
     padding: 2rem;
   }
 }
-.footer-redes img {
-  width: 2rem;
-  margin: 2rem;
+.h1-cont {
+  padding: 4rem;
+}
+
+.cont-contenedo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cont-img img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.cont-form {
+  padding: 2;
+}
+.cont-form input, .cont-form textarea {
+  padding: 1;
+  width: 90%;
+  border-color: white;
+  border-bottom: 0.12rem solid black;
+  border-radius: 0px;
+  outline: none;
+}
+@media (max-width: 768px) {
+  .h1-cont {
+    padding: 1rem;
+  }
+  .cont-img {
+    padding: 1rem;
+  }
+  .cont-form {
+    padding: 3rem;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -80,54 +80,55 @@
 			</nav>
 		</header>
 
-		<main>
-			<h1>CONTACTO</h1>
-			<div class="contacto-contenedor">
-				<div class="contacto-imagen">
+		<main> 
+			<div class="h1-cont row text-center">
+				<h1>CONTACTO</h1>
+			</div>
+			<div class="row cont-contenedor">
+				<div class="col-12 col-md-6 cont-img">
 					<img
 						src="https://www.roomdiseno.com/wp-content/uploads/2021/01/MVRDV-RoomDiseno5-750x500.jpg"
 						alt="ciudad"
 					/>
 				</div>
-				<div class="contacto-form">
-					<form class="contacto-form" method="post">
-						<h2>Formulario de contacto</h2>
-						<br />
-						<label for="name">Nombre:</label>
-						<br />
-						<input type="text" id="name" name="user_name" />
-						<br />
-						<label for="mail">E - mail : </label>
-						<br />
-						<input type="email" id="mail" name="user_email" />
-						<br />
-						<label for="msg">Mensaje:</label>
-						<br />
-						<textarea id="msg" name="user_message"></textarea>
-						<br />
-						<br />
-						<input type="submit" value="Enviar" />
-						<br />
+				<div class="col-12 col-md-6 cont-form">
+					<form method="post">
+						<div class="mb-3">
+							<h2>Formulario de contacto</h2>
+						</div>
+						<div class="mb-3">
+							<label for="contacto" class="form-label">Nombre</label>
+							<input type="email" class="form-control" id="Nombre" placeholder="Nombre" />
+						</div>
+						<div class="mb-3">
+							<label for="contacto" class="form-label">Email</label>
+							<input type="email" class="form-control" id="Email" placeholder="name@gmail.com" />
+						</div>
+						<div class="mb-3">
+							<label for="contacto" class="form-label">Mensaje</label>
+							<textarea class="form-control" id="Mensaje" rows="3"></textarea>
+						</div>
+						<div class="col-auto">
+							<button type="submit" value="Enviar" class="btn btn-primary mt-3">Enviar</button>
+						</div>
 					</form>
 				</div>
 			</div>
 			<div class="row">
-				<a href="#arriba"><img src="./img/botonSubir.png" class="rounded float-end" alt="subir" /></a>
+				<a href="#arriba"><img src="../img/botonSubir.png" class="rounded float-end" alt="subir" /></a>
 			</div>
 		</main>
-		<footer class="container-fluid bg-secondary p-1">
-			<div class="row m-1">
-				<div class="footer-redes col d-flex justify-content-center">
-					<a href="https://es-la.facebook.com/" target="_blank"
-						><img src="./img/logoFacebook.png" alt="ir a facebook"
-					/></a>
-					<a href="https://www.instagram.com/" target="_blank"
-						><img src="./img/logoInstagram.png" alt="ir a instagram"
-					/></a>
-					<a href="https://web.whatsapp.com/" target="_blank"
-						><img src="./img/LogoWhatsApp,.png" alt="enviar mensaje de whatsapp"
-					/></a>
-				</div>
+		<footer class="bg-secondary">
+			<div class="footer-redes d-flex justify-content-center">
+				<a href="https://es-la.facebook.com/" target="_blank"
+					><img src="../img/logoFacebook.png" alt="ir a facebook"
+				/></a>
+				<a href="https://www.instagram.com/" target="_blank"
+					><img src="../img/logoInstagram.png" alt="ir a instagram"
+				/></a>
+				<a href="https://web.whatsapp.com/" target="_blank"
+					><img src="../img/LogoWhatsApp,.png" alt="enviar mensaje de whatsapp"
+				/></a>
 			</div>
 		</footer>
 	</body>
