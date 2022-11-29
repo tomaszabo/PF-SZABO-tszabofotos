@@ -1,0 +1,23 @@
+.cont-sobre {
+	display: flex;
+	align-content: space-around;
+	justify-content: center;
+	padding: 3rem 1rem;
+	.parrafo-sobre {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 20% 0rem;
+	}
+	.sobre-imag {
+		padding: 2rem;
+		width: 80%;
+	}
+		.foto-sobre {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0px;
+		}
+}

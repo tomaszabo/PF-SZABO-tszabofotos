@@ -1,0 +1,32 @@
+.carousel-item {
+    align-items: center;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.tit-porfolio{
+    text-align: center;
+    padding : 4rem;
+}
+.tex-porfolio{
+    @extend .tit-porfolio
+}
+.galeria {
+	display: grid;
+	justify-content: center;
+    grid-auto-rows: 20rem;
+	grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+	gap: 3rem;
+	margin: 3rem;
+	.card {
+		justify-self: center;
+		border: white;
+		text-align: center;
+		img {
+			border-radius: 0%;
+			object-fit: cover;
+			padding: 5px;
+		}
+	}
+}
+

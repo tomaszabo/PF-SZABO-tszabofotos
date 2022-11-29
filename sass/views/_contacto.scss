@@ -1,11 +1,11 @@
-.h1-cont{
-    padding: 4rem;
+.h1-cont {
+	padding: 4rem;
 }
 
 .cont-contenedo {
 	display: flex;
-    justify-content: space-around;
-    align-items: center;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .cont-img {
@@ -15,9 +15,9 @@
 	}
 }
 .cont-form {
-padding: 2;
+	padding: 2rem;
 	input {
-		padding: 1;
+		padding: 1rem;
 		width: 90%;
 		border-color: white;
 		border-bottom: 0.12rem solid black;
@@ -29,14 +29,14 @@ padding: 2;
 	}
 }
 
-@media (max-width: 768px){
-    .h1-cont{
-        padding: 1rem;
-    }
-    .cont-img{
-        padding: 1rem;
-    }
-    .cont-form{
-        padding: 3rem;
-    }
+@media (max-width: 768px) {
+	.h1-cont {
+		padding: 1rem;
+	}
+	.cont-img {
+		padding: 1rem;
+	}
+	.cont-form {
+		padding: 3rem;
+	}
 }

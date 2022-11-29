@@ -1,6 +1,8 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
 
 body {
@@ -128,15 +130,17 @@ body {
   display: flex;
   align-content: space-around;
   justify-content: center;
-  padding: 5rem 1rem;
+  padding-top: 5rem;
 }
 .cont-index .parrafo-index {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 10% 0rem;
 }
 .cont-index .img-index-inf {
+  padding: 4rem;
   width: 90%;
 }
 .cont-index .foto-index {
@@ -163,6 +167,60 @@ body {
     padding: 2rem;
   }
 }
+.cont-sobre {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+.cont-sobre .parrafo-sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20% 0rem;
+}
+.cont-sobre .sobre-imag {
+  padding: 2rem;
+  width: 80%;
+}
+.cont-sobre .foto-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.carousel-item {
+  align-items: center;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.tit-porfolio, .tex-porfolio {
+  text-align: center;
+  padding: 4rem;
+}
+
+.galeria {
+  display: grid;
+  justify-content: center;
+  grid-auto-rows: 20rem;
+  grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+  gap: 3rem;
+  margin: 3rem;
+}
+.galeria .card {
+  justify-self: center;
+  border: white;
+  text-align: center;
+}
+.galeria .card img {
+  border-radius: 0%;
+  object-fit: cover;
+  padding: 5px;
+}
+
 .h1-cont {
   padding: 4rem;
 }
@@ -179,10 +237,10 @@ body {
 }
 
 .cont-form {
-  padding: 2;
+  padding: 2rem;
 }
 .cont-form input, .cont-form textarea {
-  padding: 1;
+  padding: 1rem;
   width: 90%;
   border-color: white;
   border-bottom: 0.12rem solid black;

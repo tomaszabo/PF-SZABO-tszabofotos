@@ -6,14 +6,16 @@
 	display: flex;
 	align-content: space-around;
 	justify-content: center;
-	padding: 5rem 1rem;
+	padding-top: 5rem;
 	.parrafo-index {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-wrap: wrap;
+		padding: 10% 0rem;
 	}
 	.img-index-inf {
+		padding: 4rem;
 		width: 90%;
 	}
 	.foto-index {
