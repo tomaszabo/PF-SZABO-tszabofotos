@@ -1,20 +1,20 @@
 .carousel-item {
-    align-items: center;
-    padding: 0 2rem;
-    width: 100%;
+	align-items: center;
+	padding: 0 2rem;
+	width: 100%;
 }
 
-.tit-porfolio{
-    text-align: center;
-    padding : 4rem;
+.tit-porfolio {
+	text-align: center;
+	padding: 4rem;
 }
-.tex-porfolio{
-    @extend .tit-porfolio
+.tex-porfolio {
+	@extend .tit-porfolio;
 }
 .galeria {
 	display: grid;
 	justify-content: center;
-    grid-auto-rows: 20rem;
+	grid-auto-rows: 20rem;
 	grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
 	gap: 3rem;
 	margin: 3rem;
@@ -27,6 +27,13 @@
 			object-fit: cover;
 			padding: 5px;
 		}
+		h2 {
+			padding: 2rem;
+			text-transform: uppercase;
+		}
 	}
 }
-
+.link-prfolio {
+	text-decoration: none;
+	color: black;
+}
