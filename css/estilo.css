@@ -210,24 +210,29 @@ body {
   gap: 3rem;
   margin: 3rem;
 }
-.galeria .card {
-  justify-self: center;
-  border: white;
-  text-align: center;
-}
-.galeria .card img {
-  border-radius: 0%;
-  object-fit: cover;
-  padding: 5px;
-}
-.galeria .card h2 {
-  padding: 2rem;
-  text-transform: uppercase;
-}
-
-.link-prfolio {
+.galeria .link-prfolio {
   text-decoration: none;
   color: black;
+}
+.galeria .link-prfolio .card {
+  justify-self: center;
+  text-align: center;
+  background: rgb(238, 238, 238);
+  border-radius: 0%;
+}
+.galeria .link-prfolio .card:hover {
+  -webkit-box-shadow: 7px 1px 35px 3px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 7px 1px 35px 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 7px 1px 35px 3px rgba(0, 0, 0, 0.7);
+}
+.galeria .link-prfolio .card img {
+  border-radius: 0%;
+  object-fit: cover;
+  padding: 10px;
+}
+.galeria .link-prfolio .card h2 {
+  padding: 1rem;
+  text-transform: uppercase;
 }
 
 .cont-main {

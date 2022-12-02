@@ -18,22 +18,28 @@
 	grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
 	gap: 3rem;
 	margin: 3rem;
-	.card {
-		justify-self: center;
-		border: white;
-		text-align: center;
-		img {
+	.link-prfolio {
+		text-decoration: none;
+		color: black;
+		.card {
+			justify-self: center;
+			text-align: center;
+			background: rgb(238, 238, 238);
 			border-radius: 0%;
-			object-fit: cover;
-			padding: 5px;
-		}
-		h2 {
-			padding: 2rem;
-			text-transform: uppercase;
+			&:hover {
+				-webkit-box-shadow: 7px 1px 35px 3px rgba(0, 0, 0, 0.7);
+				-moz-box-shadow: 7px 1px 35px 3px rgba(0, 0, 0, 0.7);
+				box-shadow: 7px 1px 35px 3px rgba(0, 0, 0, 0.7);
+			}
+			img {
+				border-radius: 0%;
+				object-fit: cover;
+				padding: 10px;
+			}
+			h2 {
+				padding: 1rem;
+				text-transform: uppercase;
+			}
 		}
 	}
-}
-.link-prfolio {
-	text-decoration: none;
-	color: black;
 }
