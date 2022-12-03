@@ -1,5 +1,13 @@
 .h1-cont {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	justify-content: center;
 	padding: 4rem;
+	div {
+		padding-top: 2rem;
+		width: 50%;
+	}
 }
 
 .cont-contenedo {
@@ -32,6 +40,9 @@
 @media (max-width: 768px) {
 	.h1-cont {
 		padding: 1rem;
+		div{
+			width: 100%;
+		}
 	}
 	.cont-img {
 		padding: 1rem;
