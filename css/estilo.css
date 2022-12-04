@@ -239,6 +239,9 @@ footer p {
   border: white;
   border-radius: 0%;
 }
+.galeria .card a {
+  color: black;
+}
 .galeria .card .cont-img-gal {
   overflow: hidden;
   position: relative;
@@ -286,9 +289,13 @@ footer p {
 
 .img-foto-sup {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.img-foto-sup a {
+  text-decoration: none;
+  color: black;
 }
 .img-foto-sup img {
   width: 100%;

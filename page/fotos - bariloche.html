@@ -4,9 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Algunos proyectos fotográficos que he realizando en mi carrera" />
-		<meta name="keywords" content="fotografía, fotos, arte, retratos, fotógrafo, porfolio" />
-		<title>TomSz - Porfolio</title>
+		<meta name="description" content="Mis mejores fotos" />
+		<meta name="keywords" content="fotografía, fotos, arte, retratos, fotógrafo" />
+		<title>TomSz - Fotos</title>
 		<link rel="icon" type="image/png" sizes="16x16" href="./img/logoTomSzBarra.png" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -26,7 +26,7 @@
 	</head>
 
 	<body id="arriba">
-		<header>
+		<header class="sticky-top">
 			<nav class="navbar navbar-expand-lg bg-light">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="../index.html">
@@ -70,7 +70,7 @@
 									<a class="nav-link activo" href="porfolio.html">Porfolio</a>
 								</li>
 								<li class="nav-item ani-nav-item">
-									<a class="nav-link" href="fotos.html">Fotos</a>
+									<a class="nav-link " href="fotos.html">Fotos</a>
 								</li>
 								<li class="nav-item ani-nav-item">
 									<a class="nav-link" href="contacto.html">Contacto</a>
@@ -82,98 +82,52 @@
 			</nav>
 		</header>
 
-		<main>
-			<!-- carousel -->
-			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="https://i.ibb.co/gTH00qP/20220713-180025.jpg" class="d-block w-100" alt="bariloche" />
-					</div>
-					<div class="carousel-item">
-						<img src="https://i.ibb.co/gmX0Qb9/20220910-071344.jpg" class="d-block w-100" alt="barco" />
-					</div>
-					<div class="carousel-item">
-						<img src="https://i.ibb.co/rH6c2Z6/20220805-100803.jpg" class="d-block w-100" alt="barco" />
-					</div>
-				</div>
-				<button
-					class="carousel-control-prev"
-					type="button"
-					data-bs-target="#carouselExampleFade"
-					data-bs-slide="prev"
-				>
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button
-					class="carousel-control-next"
-					type="button"
-					data-bs-target="#carouselExampleFade"
-					data-bs-slide="next"
-				>
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
+		<main class="cont-main">
+			<div class="img-foto-sup container-fluid">
+				<a href="porfolio.html" class="p-3 h5">VOLVER</a>
+				<img src="https://i.ibb.co/cJx0ZPr/20220713-142240.jpg" alt="montaña" border="0" />
+			</div>
+			<div class="tit-foto">
+				<h1>BARILOCHE</h1>
 			</div>
 
-			<div class="tex-porfolio">
-				<h1>PORFOLIO</h1>
-				<p>Son algunos de los proyectos que fui realizando en toda mi carrera fotográfica</p>
+			<div class="galeria-fotos">
+				<img
+					src="https://i.ibb.co/wpcrtG2/20220712-105910.jpg"
+					alt="hotel"
+				/>
+				<img
+					src="https://i.ibb.co/qJLzKyB/20220712-111714.jpg"
+					alt="nieve"
+				/>
+				<img
+					src="https://i.ibb.co/4YsMPTT/20220712-111819.jpg"
+					alt="tractor"
+				/>
+				<img
+					src="https://i.ibb.co/zPgMVHD/20220712-112322.jpg"
+					alt="auto"
+				/>
+
+				<img
+					src="https://i.ibb.co/sQkMLWK/20220712-123546.jpg"
+					alt="naturalesa"
+				/>
+				<img
+					src="https://i.ibb.co/MsJXrBc/DSC-2815.jpg"
+					alt="montaña"
+				/>
+
 			</div>
-			<div class="galeria">
-				<div class="card">
-					<a href="fotos - barcos .html">
-						<div class="cont-img-gal">
-							<img src="https://i.ibb.co/Xz6Sr0k/20220910-071352.jpg" class="card-img" alt="barco" />
-							<div class="img-hover">
-								<h3>VER MAS</h3>
-							</div>
-						</div>
-					</a>
-					<div class="card-body">
-						<h2 class="card-title">BARCOS</h2>
-						<p>Te muestro la marina desde de adentro</p>
-					</div>
-				</div>
-
-				<div class="card">
-					<a href="fotos - bariloche.html">
-						<div class="cont-img-gal">
-							<img src="https://i.ibb.co/cJx0ZPr/20220713-142240.jpg" class="card-img" alt="barco" />
-							<div class="img-hover">
-								<h3>VER MAS</h3>
-							</div>
-						</div>
-					</a>
-					<div class="card-body">
-						<h2 class="card-title">BARILOCHE</h2>
-						<p>Nieve y snowboard en una en el mejor lugar</p>
-					</div>
-				</div>
-
-				<div class="card">
-					<a href="fotos - retrato.html">
-						<div class="cont-img-gal">
-							<img src="https://i.ibb.co/Hg6xq9d/DSC-0048.jpg" class="card-img" alt="barco" />
-							<div class="img-hover">
-								<h3>VER MAS</h3>
-							</div>
-						</div>
-					</a>
-					<div class="card-body">
-						<h2 class="card-title">AILEN</h2>
-						<p>Compartiendo un buen rato y unas buenas fotos</p>
-					</div>
-				</div>
+			<div class="d-flex justify-content-end">
+				<a href="#arriba"><img src="../img/botonSubir.png" class="" alt="subir" /></a>
 			</div>
 		</main>
-
 		<footer class="bg-secondary">
 			<div class="row justify-content-center text-center">
 				<img src="../img/logoTomSz.png" alt="logoTomSz" class="logo-foot" />
 				<p>Estudio fotografico - TomSz</p>
 			</div>
-
 			<div class="footer-redes d-flex justify-content-center">
 				<a href="https://es-la.facebook.com/" target="_blank"
 					><img src="../img/logoFacebook.png" alt="ir a facebook"
