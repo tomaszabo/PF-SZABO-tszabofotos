@@ -1,25 +1,21 @@
-@use './base/reset';
+@use "./base/reset";
 
-@use './base/typo';
+@use "./base/typo";
 
-@use './utilities/globales';
+@use "./utilities/globales";
 
-@use './utilities/componentes';
+@use "./utilities/componentes";
 
-@use './layout/header';
+@use "./layout/header";
 
-@use './layout/footer';
+@use "./layout/footer";
 
-@use './views/index';
+@use "./views/index";
 
-@use './views/sobreTomSz';
+@use "./views/sobreTomSz";
 
-@use './views/porfolio';
+@use "./views/porfolio";
 
-@use './views/fotos';
+@use "./views/fotos";
 
-@use './views/contacto';
-
-
-
-
+@use "./views/contacto";
